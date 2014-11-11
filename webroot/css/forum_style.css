@@ -1,0 +1,715 @@
+.forum-container input {
+    outline: 0 none;
+    vertical-align: baseline;
+}
+
+.forum-container {
+    background-color: #382f2f;
+    color: black;
+    padding: 20px;
+}
+.forum-container .head {
+    background-color: #4d4d4d;
+    height: 50px;
+}
+.forum-container .head ul.nav-menu {
+	padding: 0;
+    display: block;
+}
+.forum-container .head ul.nav-menu li {
+    background-color: #0d6666;
+    color: #d9d9d9 !important;
+    display: block;
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+    list-style-type: none;
+    padding: 15px;
+}
+.forum-container .head ul.nav-menu li:hover {
+	background-color: #17b3b3;
+}
+.forum-container .head > .nav > a {
+    background-color: #0d6666;
+    color: #d9d9d9 !important;
+    display: block;
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 15px;
+}
+.forum-container .head > .nav > a:hover {
+	background-color: #17b3b3;
+}
+.forum-container .head ul.nav-menu li a {
+    color: #d9d9d9 !important;
+}
+.forum-container .head ul.nav-menu li.is-active {
+    background-color: #17b3b3;
+    color: #d9d9d9 !important;
+}
+.forum-container .head > .nav div.nav-buttons {
+    display: block;
+    float: right;
+    text-align: left;
+}
+.forum-container .head > .nav div.nav-buttons a {
+    background-color: #0d6666;
+    color: #d9d9d9 !important;
+    display: block;
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 15px;
+    padding: 15px;
+}
+.forum-container .head > .nav div.nav-buttons a:hover {
+	background-color: #17b3b3;
+}
+.forum-container nav.breadcrumb {
+    background-color: #a0a0a0;
+}
+.forum-container nav.breadcrumb ul {
+    background-color: #382f2f;
+    display: block;
+    height: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+.forum-container nav.breadcrumb ul li {
+    background-color: #382f2f;
+    color: #ffffff !important;
+    display: block;
+    float: left;
+    font-size: 15px;
+    line-height: 15px;
+    list-style-type: none;
+    padding-right: 5px;
+}
+.forum-container nav.breadcrumb ul li a {
+    background-color: #382f2f;
+    color: #17b3b3 !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.forum-container nav.breadcrumb ul li a:hover {
+    color: #47e3e3 !important;
+}
+.forum-container nav.breadcrumb ul li:last-child a .caret {
+    display: none;
+}
+.forum-container nav.breadcrumb ul:after {
+    clear: both;
+}
+.forum-container .foot {
+    border-top: 2px solid #262626;
+    clear: both;
+    float: none;
+    margin-top: 30px;
+    text-align: center;
+}
+.forum-container .foot div.copyright {
+    color: #999999;
+    margin-left: auto;
+    margin-right: auto;
+}
+.forum-container a {
+    color: #0d6666;
+    text-decoration: underline;
+}
+.forum-container a:hover {
+    color: #17b3b3;
+}
+.forum-container .title {
+	margin-top: 15px;
+    background-color: #737373;
+    border: 2px solid #262626;
+    margin-bottom: 30px;
+}
+.forum-container .title h2 {
+    background-color: #4d4d4d;
+	border-bottom: 0px;
+    color: #17b3b3;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 15px;
+    margin: 0;
+}
+.forum-container .title hr {
+	margin: 0;
+	border: 0;
+	border-top: 1px solid #262626;
+	height: 0px;
+}
+.forum-container .title h3 {
+    background-color: #5d5d5d;
+	border-bottom: 0px;
+    color: #17b3b3;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 15px;
+    margin: 0;
+}
+.forum-container .title p {
+	border-top: 2px solid #262626;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.forum-container .action-buttons {
+    float: right;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    text-align: right;
+}
+.forum-container .title .action-buttons {
+    float: right;
+    padding: 0;
+}
+.forum-container .action-buttons a {
+    background-color: #0d6666;
+    color: #d9d9d9 !important;
+    display: block;
+    float: left;
+    font-size: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 15px;
+    padding: 15px;
+}
+.forum-container .action-buttons a:hover {
+    background-color: #17b3b3;
+}
+.forum-container .form--inline {
+    background-color: #999999;
+    border: 1px solid #262626;
+    margin-bottom: 50px;
+    min-height: 50px;
+    padding: 15px;
+}
+.forum-container .form-filters {
+    height: 70px;
+}
+.forum-container .form--inline .field {
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    white-space: nowrap;
+}
+.forum-container .form--inline .field label {
+    display: block;
+    margin-bottom: 5px;
+}
+.forum-container .form--inline .field input[type="text"] {
+    border: 1px solid lightgray;
+    display: block;
+}
+.forum-container .form--inline .submit {
+    text-align: center;
+    width: 100%;
+}
+.forum-container .form--inline .submit .button {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 25px;
+    cursor: pointer;
+}
+.forum-container .form--inline .submit .button:hover {
+}
+.forum-container .form--inline .submit .button.small {
+    clear: none;
+    padding: 5px;
+    width: 100px;
+}
+.forum-container .panel {
+    background-color: #382f2f;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.forum-container .table {
+    border: 1px solid #262626;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+.forum-container .table th {
+    background-color: #4d4d4d;
+    border: 1px solid #262626;
+    margin: 0;
+    padding: 10px;
+    color: #17b3b3;
+}
+.forum-container .table th a {
+	color: #17b3b3;
+}
+
+.forum-container .table th a.asc:after {
+	content: "(\2191)";
+}
+
+.forum-container .table th a.desc:after {
+	content: "(\2193)";
+}
+
+.forum-container .table th a:hover {
+	color: #47e3e3;
+}
+.forum-container .table tr {
+    background-color: #999999;
+}
+.forum-container .table td {
+    border: 1px solid #262626;
+    margin: 0;
+    padding: 10px;
+}
+.forum-container #posts .table tr:nth-of-type(4n+3),
+.forum-container #posts .table tr:nth-of-type(4n+4) {
+    background-color: #808080;
+}
+.forum-container #posts .table .post-author {
+	width: 150px;
+	font-size: 11px;
+}
+
+.forum-container #posts .table .post-author .avatar {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.forum-container #posts .table .post-author h4 {
+	font-size: 15px;
+}
+.forum-container #posts .table .post-author img {
+}
+.forum-container #posts .table .post-author .data {
+}
+.forum-container #posts .table .post-author .data .label {
+	float: left;
+	text-align: left;
+}
+.forum-container #posts .table .post-author .data .content {
+	text-align: right;
+}
+.forum-container .table td:first-child {
+    width: 100px;
+}
+.forum-container .table a {
+}
+.forum-container .table .col-stat {
+    text-align: center;
+    vertical-align: middle;
+}
+.forum-container .table .col-activity {
+    text-align: right;
+}
+.forum-container .table .col-created {
+    text-align: center;
+}
+.forum-container .table .topic-pages {
+    font-size: 75%;
+}
+.forum-container .table .topic-info {
+	margin-top: 5px;
+    font-size: 75%;
+    color: #333; 
+}
+.forum-container .table .col-icon {
+    width: 26px !important;
+    vertical-align: middle;
+	text-align: center;
+}
+.forum-container .table .col-icon img {
+    vertical-align: middle;
+}
+.forum-container .align-center {
+    text-align: center;
+}
+.forum-container .text-muted {
+    font-style: italic;
+}
+.forum-container .align-right {
+    text-align: right;
+}
+.forum-container .panel .panel-head h3 {
+    background-color: #4d4d4d;
+    color: #17b3b3;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.forum-container .panel .panel-head h5 {
+    background-color: #4d4d4d;
+    border-left: 2px solid #262626;
+    border-right: 2px solid #262626;
+    border-top: 2px solid #262626;
+    color: #17b3b3;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 5px;
+}
+.forum-container.user .panel .panel-head h3 {
+    background-color: #4d4d4d;
+    border: 2px solid #262626;
+    color: #17b3b3;
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.forum-container.user .panel .panel-body {
+    padding: 15px;
+}
+.forum-container.user .panel .panel-body .photo {
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+}
+.forum-container.user .panel .panel-body .text {
+	float: left;
+	color: #999;
+	margin-top: 6px;
+}
+.forum-container.user .button {
+    text-align: center;
+}
+.forum-container.user .button button {
+    display: block;
+    margin: 15px auto;
+    width: 150px;
+    height: 25px;
+    text-decoration: underline;
+}
+.forum-container .login {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+.forum-container .login form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+.forum-container .pagination {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.forum-container nav.pagination {
+    height: 45px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.forum-container nav.pagination .counter {
+    color: #999999;
+    height: 42px;
+}
+.forum-container .form--inline nav.pagination .counter {
+    color: #000000;
+    height: 42px;
+}
+.forum-container nav.pagination ul {
+    float: right;
+}
+.forum-container nav.pagination ul li {
+    background-color: #404040;
+    border: 1px solid #262626;
+    color: #ffffff !important;
+    display: block;
+    float: left;
+    font-size: 15px;
+    height: 15px;
+    line-height: 15px;
+    list-style-type: none;
+    padding: 15px;
+}
+.forum-container .quick-reply {
+    clear: both;
+    float: none;
+}
+.forum-container .quick-reply .panel-head h5 {
+    background-color: #4d4d4d;
+    border: 2px solid #262626;
+    color: #17b3b3;
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.forum-container .quick-reply .button, 
+#PostEditForm .button,
+#PostAddForm .button,
+#TopicAddForm .button,
+#TopicEditForm .button,
+#ReportReportForm .button {
+    clear: both;
+    display: block;
+    float: none;
+    margin: 15px auto;
+    width: 150px;
+    height: 25px;
+    cursor: pointer;
+}
+.forum-container .quick-reply .button:hover, 
+#PostEditForm .button:hover,
+#PostAddForm .button:hover,
+#TopicAddForm .button:hover,
+#TopicEditForm .button:hover,
+#ReportReportForm .button:hover {
+}
+.forum-container .post-time {
+    vertical-align: middle;
+}
+.forum-container .post-time time {
+    display: block;
+    font-size: 75%;
+    line-height: 75%;
+    text-align: right;
+}
+.forum-container .post-actions {
+    float: right;
+}
+.forum-container .post-actions a {
+    background-color: #0d6666;
+    color: #d9d9d9 !important;
+    display: block;
+    float: left;
+    font-size: 75%;
+    margin-left: 5px;
+    padding: 5px;
+}
+.forum-container .post-actions a:hover {
+	background-color: #17b3b3;
+}
+.forum-container .post-ratings {
+    float: none;
+    width: 100%;
+}
+.forum-container .post-ratings a {
+    background-color: #202020;
+    color: #ffffff !important;
+    display: block;
+    float: left;
+    font-size: 75%;
+    padding: 5px;
+}
+.forum-container .post-ratings a:hover{
+	background-color: #17b3b3;
+}
+.forum-container .post-ratings .rate-up,
+.forum-container .post-ratings .rate-down {
+    background-color: #0d6666;
+    color: #d9d9d9 !important;
+    display: block;
+    float: left;
+    font-size: 75%;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.forum-container .post-ratings .rating {
+    background-color: #a0a0a0;
+    color: #000000 !important;
+    display: block;
+    float: left;
+    font-size: 75%;
+    margin-right: 5px;
+    padding: 5px;
+}
+.forum-container #TopicAddForm,
+.forum-container #TopicEditForm,
+.forum-container #ReportReportForm {
+    background-color: #f0f0e0;
+    border: 1px solid lightgray;
+    padding: 15px;
+}
+.forum-container #TopicAddForm .input,
+.forum-container #TopicEditForm .input,
+.forum-container #ReportReportForm .input {
+    clear: both;
+    float: none;
+    margin: 0;
+    padding: 15px;
+}
+.forum-container #TopicAddForm .input.textarea label .wysiwygeditor,
+.forum-container #TopicEditForm .input.textarea label .wysiwygeditor,
+.forum-container #ReportReportForm .input.textarea label .wysiwygeditor {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.forum-container #TopicAddForm .input label,
+.forum-container #TopicEditForm .input label,
+.forum-container #ReportReportForm .input label {
+    display: block;
+    float: left;
+    margin-right: 20px;
+    text-align: right;
+    width: 130px;
+}
+.forum-container #TopicAddForm .input input[type="text"],
+.forum-container #TopicEditForm .input input[type="text"],
+.forum-container #ReportReportForm .input input[type="text"] {
+    background-color: #bbbbbb;
+    border: 1px solid #000000;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    padding: 2px;
+    width: 300px;
+}
+.forum-container #TopicAddForm .input select,
+.forum-container #TopicEditForm .input select,
+.forum-container #ReportReportForm .input select {
+    background-color: #bbbbbb;
+    border: 1px solid #000000;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    padding: 2px;
+    width: 300px;
+}
+.forum-container #TopicAddForm .input textarea,
+.forum-container #TopicEditForm .input textarea,
+.forum-container #ReportReportForm .input textarea {
+    background-color: #bbbbbb;
+    border: 1px solid #000000;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width: 300px;
+}
+.forum-container #TopicAddForm .input .input-help,
+.forum-container #TopicEditForm .input .input-help,
+.forum-container #ReportReportForm .input .input-help {
+    clear: both;
+    display: block;
+    float: left;
+    font-size: 75%;
+    font-style: italic;
+    margin-left: 150px;
+}
+.forum-container #TopicAddForm .input div.sceditor-container,
+.forum-container #TopicEditForm .input div.sceditor-container,
+.forum-container #ReportReportForm .input div.sceditor-container {
+    clear: both;
+    float: none;
+}
+.forum-container #PollViewForm input[type="submit"] {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+.forum-container .mod-actions {
+    height: 60px;
+    text-align: center;
+}
+.forum-container .mod-actions .field label {
+    float: left;
+}
+.forum-container .mod-actions .field select {
+    float: left;
+}
+.forum-container .mod-actions .button {
+    clear: both;
+    display: block;
+    float: none;
+    margin: auto;
+    width: 150px;
+}
+.forum-container .statistics {
+    color: #999999;
+}
+
+.forum-container .statistics table {
+    color: #000;
+}
+
+.forum-container .no-results {
+	color: #999999;
+}
+
+.forum-container input[type="submit"] {
+    text-decoration: underline;
+}
+.forum-container .information .title {
+    background-color: #737373;
+    border: 2px solid #262626;
+    margin: 0;
+	margin-top: 15px;
+}
+.forum-container .information .title h2 {
+    background-color: #4d4d4d;
+    border-bottom: 0 none;
+    color: #17b3b3;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 15px;
+}
+.forum-container .information .content {
+    background-color: #737373;
+    border-color: -moz-use-text-color #262626 #262626;
+    border-style: none solid solid;
+    border-width: 0 2px 2px;
+    padding: 19px;
+}
+.forum-container .progress-bar {
+    background-color: #202020;
+    height: 10px;
+    margin: 2px;
+}
+.forum-container .post code:before,
+.forum-container .post code {
+    display: block;
+    text-align: left;
+}
+.forum-container .post code:before {
+    content: "Code:";
+    left: 0;
+    position: absolute;
+    top: -1.35em;
+}
+.forum-container .post code {
+    background-color: #f8f8f8;
+    border: 1px solid #aaaaaa;
+    display: block;
+    margin-top: 1.5em;
+    padding: 0.25em;
+    position: relative;
+    white-space: pre;
+}
+
+.forum-container .post .decoda-quote-head {
+	font-size: 75%;
+}
+
+.forum-container .post blockquote {
+	color: #000;
+    background: none repeat scroll 0 0 #b3b3b3;
+    border: 2px solid #666666;
+    margin: 0.25em 0;
+    padding: 0.25em;
+    position: relative;
+}
+.forum-container .post ul,
+.forum-container .post ol {
+    padding: 0 0 0 40px;
+}
+.forum-container .spoiler,
+.forum-container .decoda-spoiler-content {
+    background: none repeat scroll 0 0 #fff6c7;
+    border: 1px solid #d8d8d8;
+    display: block;
+    margin-top: 1.5em;
+    padding: 6px;
+    white-space: normal;
+}
+.forum-container .spoiler .desc .forum-container .decoda-spoiler-content .desc {
+    text-decoration: underline;
+}
+.forum-container .decoda-spoiler-button {
+}
+.forum-container .clearboth {
+	clear: both;
+}

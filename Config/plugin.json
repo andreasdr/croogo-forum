@@ -1,0 +1,15 @@
+{
+	"name": "Forum",
+	"description": "Croogo plugin of miles forum, see http://milesj.me/code/cakephp/forum",
+
+	"author": "Andreas Drewke",
+	"authorEmail": "andreas@drewke.net",
+	"authorUrl": "http://drewke.net",
+
+	"dependencies": {
+		"plugins": [
+			"acl",
+			"extensions"
+		]
+	}
+}
